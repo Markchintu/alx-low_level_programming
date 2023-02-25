@@ -5,10 +5,11 @@
  * @n: The number onto which checking is done
  * Return: 1 for positive number , -1 for anyhting else
  */
+
 int print_sign(int n)
 
 {
-	if( n > 0)
+	if (n > 0)
 	{
 	_putchar(43);
 	return(1);
