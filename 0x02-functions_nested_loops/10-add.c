@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * add - Adds two values
+ * @n1: The first umber  be computed
+ * @n2: The second umber to be computed
+ * Return: Integer value 
+ */
 
 int add(int n1, int n2)
 
