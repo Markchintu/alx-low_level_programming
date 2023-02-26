@@ -4,13 +4,7 @@
  * @x: The number to be checked 
  * Return: 1 for character that wiil be  digit or 0 for any else
  */
-
-int isdigit (int x)
-
+int _isdigit(int c)
 {
-	if (x >= 40 && x <= 57)
-	{
-	return (1);
-	}
-	return (0);
+ return (c >= '0' && c <= '9');
 }
